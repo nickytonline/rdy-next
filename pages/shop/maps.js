@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 import siteMetadata from '@/data/siteMetadata'
 import projectsData from '@/data/projectsData'
 
@@ -21,15 +23,15 @@ export default function Gallery() {
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
-            {projectsData.map((d) => (
-              <Card
-                key={d.title}
-                title={d.title}
-                description={d.description}
-                imgSrc={d.imgSrc}
-                href={d.href}
-              />
-            ))}
+            <Image src="/static/images/shop/map1.jpeg" alt="image" width={170} height={400} />
+
+            <Image src="/static/images/shop/map2.jpeg" alt="image" width={170} height={400} />
+
+            <Image src="/static/images/shop/map3.jpeg" alt="image" width={170} height={400} />
+
+            <Image src="/static/images/shop/map5.jpeg" alt="image" width={170} height={400} />
+
+            <Image src="/static/images/shop/map6.jpeg" alt="image" width={170} height={400} />
           </div>
         </div>
       </div>

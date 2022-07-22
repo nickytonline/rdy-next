@@ -11,7 +11,10 @@ import { PageSEO } from '@/components/SEO'
 export default function Loguilloche() {
   return (
     <>
-      <PageSEO title={`Maps - ${siteMetadata.author}`} description={siteMetadata.description} />
+      <PageSEO
+        title={`Loguilloche - ${siteMetadata.author}`}
+        description={siteMetadata.description}
+      />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
@@ -25,14 +28,15 @@ export default function Loguilloche() {
 
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
-            <Image src="/static/images/shop/log15.jpeg" alt="image" width={180} height={400} />
-            <Image src="/static/images/shop/log16.jpeg" alt="image" width={180} height={400} />
+            <Image src="/static/images/shop/log15.jpeg" alt="image" width={170} height={400} />
 
-            <Image src="/static/images/shop/log8.jpeg" alt="image" width={180} height={400} />
-            <Image src="/static/images/shop/log13.jpeg" alt="image" width={180} height={400} />
+            <Image src="/static/images/shop/log8.jpeg" alt="image" width={170} height={400} />
 
-            <Image src="/static/images/shop/log20.jpeg" alt="image" width={180} height={400} />
-            <Image src="/static/images/shop/log21.jpeg" alt="image" width={180} height={400} />
+            <Image src="/static/images/shop/log16.jpeg" alt="image" width={170} height={400} />
+
+            <Image src="/static/images/shop/log20.jpeg" alt="image" width={170} height={400} />
+            <Image src="/static/images/shop/log13.jpeg" alt="image" width={170} height={400} />
+            <Image src="/static/images/shop/log21.jpeg" alt="image" width={170} height={400} />
           </div>
         </div>
       </div>
