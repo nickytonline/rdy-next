@@ -20,10 +20,11 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="container mx-auto grid grid-cols-3 gap-2">
-        <Image src="/static/images/aaron-blue-face.jpeg" alt="image" width="1816" height="4032" />
-        <Image src="/static/images/shop/map4.jpeg" alt="image" width="1816" height="4032" />
-        <Image src="/static/images/shop/log13.jpeg" alt="image" width="1816" height="4032" />
+      <div className="container mx-auto grid grid-cols-4 gap-2">
+        <Image src="/static/images/aaron-blue-face.jpeg" alt="image" width="700" height="1500" />
+        <Image src="/static/images/shop/map4.jpeg" alt="image" width="700" height="1500" />
+        <Image src="/static/images/shop/log13.jpeg" alt="image" width="700" height="1500" />
+        <Image src="/static/images/shop/ft-monica-3.jpg" alt="image" width={700} height={1500} />
       </div>
 
       {siteMetadata.newsletter.provider !== '' && (

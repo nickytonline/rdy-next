@@ -15,20 +15,23 @@ export default function Gallery() {
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            New Maps
+            Pen Plotter Maps
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Pen plotter drawn maps, mostly from USGS datasources.
+            Pen plotter drawn maps, most symbols removed for a clean aesthetic.
           </p>
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
-            <Image src="/static/images/shop/map1.jpeg" alt="image" width={170} height={400} />
+            <Image src="/static/images/shop/map1.jpeg" alt="image" width={400} height={600} />
 
-            <Image src="/static/images/shop/map2.jpeg" alt="image" width={170} height={400} />
+            <Image src="/static/images/shop/map2.jpeg" alt="image" width={430} height={550} />
 
-            <Image src="/static/images/shop/map3.jpeg" alt="image" width={170} height={400} />
-
+            <Image src="/static/images/shop/map3.jpeg" alt="image" width={1070} height={800} />
+          </div>
+        </div>
+        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+          <div className="-m-4 flex flex-wrap">
             <Image src="/static/images/shop/map5.jpeg" alt="image" width={170} height={400} />
 
             <Image src="/static/images/shop/map6.jpeg" alt="image" width={170} height={400} />

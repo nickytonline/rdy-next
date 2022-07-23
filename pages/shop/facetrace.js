@@ -10,6 +10,8 @@ import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 
 export default function Loguilloche() {
+  const imageUrl = ''
+
   return (
     <>
       <PageSEO
@@ -92,93 +94,99 @@ export default function Loguilloche() {
               <div className="w-full flex-grow text-left md:pr-5">
                 <h1 className="mb-5 text-4xl font-bold">Pricing</h1>
                 <h3 className="text-md mb-5 font-medium">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit repellat dignissimos
-                  laboriosam odit accusamus porro*
+                  We have a wide selection of options available to suit every budget. Most orders
+                  are printed and shipped the same week*
                 </h3>
-              </div>
-              <div className="mb-2 w-full">
-                <p className="text-xs">*Lorem ipsum sit amet</p>
               </div>
             </div>
             <div className="md:w-3/4">
               <div className="mx-auto max-w-4xl md:flex">
                 <div className="mx-auto mb-3 w-full rounded-md bg-white px-8 py-8 shadow-lg shadow-gray-600 md:my-2 md:flex md:w-1/3 md:max-w-none md:flex-col md:px-10 md:py-10">
                   <div className="w-full flex-grow">
-                    <h2 className="mb-4 text-center font-bold uppercase">PERSONAL</h2>
-                    <h3 className="mb-5 text-center text-4xl font-bold">
-                      $5<span className="text-sm">/mo</span>
-                    </h3>
+                    <h2 className="mb-4 text-center font-bold uppercase">SKETCH</h2>
+                    <h3 className="mb-5 text-center text-4xl font-bold">$100</h3>
                     <ul className="mb-8 text-sm">
                       <li className="leading-tight">
-                        <i className="mdi mdi-check-bold text-lg"></i> Lorem ipsum
+                        <i className="mdi mdi-check-bold text-lg"></i> Up to 8x10
                       </li>
                       <li className="leading-tight">
-                        <i className="mdi mdi-check-bold text-lg"></i> Dolor sit amet
+                        <i className="mdi mdi-check-bold text-lg"></i> Single pen / color
+                      </li>
+                      <li className="leading-tight">
+                        <i className="mdi mdi-check-bold text-lg"></i> No photo editing
                       </li>
                     </ul>
                   </div>
                   <div className="w-full">
-                    <button className="w-full rounded-md bg-gray-600 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700">
+                    <button
+                      className="Snipcart-add-item w-full rounded-md bg-gray-600 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700"
+                      data-item-id={`facetrace-sketch`}
+                      data-item-image={imageUrl}
+                      data-item-name={`FACETRACE SKETCH`}
+                      data-item-url="/shop/facetrace"
+                      data-item-price={100}
+                    >
                       Buy Now
                     </button>
                   </div>
                 </div>
                 <div className="mx-auto mb-3 w-full rounded-md bg-white px-8 py-8 shadow-lg shadow-gray-600 md:relative md:z-50 md:-mx-3 md:mb-0 md:flex md:w-1/3 md:max-w-none md:flex-col md:px-10 md:py-10">
                   <div className="w-full flex-grow">
-                    <h2 className="mb-4 text-center font-bold uppercase">TEAM</h2>
-                    <h3 className="mb-5 text-center text-4xl font-bold md:text-5xl">
-                      $15<span className="text-sm">/mo</span>
-                    </h3>
+                    <h2 className="mb-4 text-center font-bold uppercase">PORTRAIT</h2>
+                    <h3 className="mb-5 text-center text-4xl font-bold md:text-5xl">$500</h3>
                     <ul className="mb-8 text-sm">
                       <li className="leading-tight">
-                        <i className="mdi mdi-check-bold text-lg"></i> Lorem ipsum
+                        <i className="mdi mdi-check-bold text-lg"></i> Up to 11.5 x 23.5
                       </li>
                       <li className="leading-tight">
-                        <i className="mdi mdi-check-bold text-lg"></i> Dolor sit amet
+                        <i className="mdi mdi-check-bold text-lg"></i> Up to three pens / colors
                       </li>
                       <li className="leading-tight">
-                        <i className="mdi mdi-check-bold text-lg"></i> Consectetur
-                      </li>
-                      <li className="leading-tight">
-                        <i className="mdi mdi-check-bold text-lg"></i> Adipisicing
-                      </li>
-                      <li className="leading-tight">
-                        <i className="mdi mdi-check-bold text-lg"></i> Elit repellat
+                        <i className="mdi mdi-check-bold text-lg"></i> Photo trimming services
+                        included
                       </li>
                     </ul>
                   </div>
                   <div className="w-full">
-                    <button className="w-full rounded-md bg-gray-600 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700">
+                    <button
+                      className="Snipcart-add-item w-full rounded-md bg-gray-600 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700"
+                      data-item-id={`facetrace-potrtait`}
+                      data-item-image={imageUrl}
+                      data-item-name={`FACETRACE PORTRAIT`}
+                      data-item-url="/shop/facetrace"
+                      data-item-price={500}
+                    >
                       Buy Now
                     </button>
                   </div>
                 </div>
                 <div className="mx-auto mb-3 w-full rounded-md bg-white px-8 py-8 shadow-lg shadow-gray-600 md:my-2 md:flex md:w-1/3 md:max-w-none md:flex-col md:px-10 md:py-10">
                   <div className="w-full flex-grow">
-                    <h2 className="mb-4 text-center font-bold uppercase">PRO</h2>
-                    <h3 className="mb-5 text-center text-4xl font-bold">
-                      $35<span className="text-sm">/mo</span>
-                    </h3>
+                    <h2 className="mb-4 text-center font-bold uppercase">PARTY</h2>
+                    <h3 className="mb-5 text-center text-4xl font-bold">$2500</h3>
                     <ul className="mb-8 text-sm">
                       <li className="leading-tight">
-                        <i className="mdi mdi-check-bold text-lg"></i> Lorem ipsum
+                        <i className="mdi mdi-check-bold text-lg"></i> We bring the camera and robot
+                        to your event
                       </li>
                       <li className="leading-tight">
-                        <i className="mdi mdi-check-bold text-lg"></i> Dolor sit amet
+                        <i className="mdi mdi-check-bold text-lg"></i> Up to 10 8x10s included
                       </li>
                       <li className="leading-tight">
-                        <i className="mdi mdi-check-bold text-lg"></i> Consectetur
-                      </li>
-                      <li className="leading-tight">
-                        <i className="mdi mdi-check-bold text-lg"></i> Adipisicing
-                      </li>
-                      <li className="leading-tight">
-                        <i className="mdi mdi-check-bold text-lg"></i> Much more...
+                        <i className="mdi mdi-check-bold text-lg"></i> One "group" page with all
+                        photos from the event included
                       </li>
                     </ul>
                   </div>
                   <div className="w-full">
-                    <button className="w-full rounded-md bg-gray-600 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700">
+                    <button
+                      className="Snipcart-add-item w-full rounded-md bg-gray-600 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700"
+                      data-item-id={`facetrace-party`}
+                      data-item-image={imageUrl}
+                      data-item-name={`FACETRACE PARTY`}
+                      data-item-url="/shop/facetrace"
+                      data-item-price={100}
+                    >
                       Buy Now
                     </button>
                   </div>
@@ -189,20 +197,53 @@ export default function Loguilloche() {
         </div>
       </div>
 
-      <div className="fixed bottom-0 right-0 z-10 mb-4 mr-4 flex items-end justify-end">
-        <div>
-          <a
-            title="Buy me a beer"
-            href="https://www.buymeacoffee.com/scottwindon"
-            target="_blank"
-            className="block h-16 w-16 transform rounded-full shadow transition-all hover:rotate-12 hover:scale-110 hover:shadow-lg"
-            rel="noreferrer"
-          >
-            <img
-              className="h-full w-full rounded-full object-cover object-center"
-              src="https://i.pinimg.com/originals/60/fd/e8/60fde811b6be57094e0abc69d9c2622a.jpg"
-            />
-          </a>
+      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+        <div className="container py-12">
+          <div className="container py-12">
+            <div className="-m-4 flex flex-wrap">
+              <Image
+                src="/static/images/shop/ft-monica-1.jpg"
+                alt="image"
+                width={170}
+                height={400}
+              />
+
+              <Image
+                src="/static/images/shop/ft-monica-2.jpg"
+                alt="image"
+                width={170}
+                height={400}
+              />
+
+              <Image
+                src="/static/images/shop/ft-monica-3.jpg"
+                alt="image"
+                width={170}
+                height={400}
+              />
+
+              <Image
+                src="/static/images/shop/ft-monica-4.jpg"
+                alt="image"
+                width={170}
+                height={400}
+              />
+
+              <Image
+                src="/static/images/shop/ft-monica-5.jpg"
+                alt="image"
+                width={170}
+                height={400}
+              />
+
+              <Image
+                src="/static/images/shop/ft-monica-6.jpg"
+                alt="image"
+                width={170}
+                height={400}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
