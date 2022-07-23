@@ -24,11 +24,11 @@ class MyDocument extends Document {
           <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
 
-          <link rel="preconnect" href="https://app.Snipcart.com" />
-          <link rel="preconnect" href="https://cdn.Snipcart.com" />
+          <link rel="preconnect" href="<https://app.snipcart.com>" />
+          <link rel="preconnect" href="<https://cdn.snipcart.com>" />
           <link
             rel="stylesheet"
-            href="https://cdn.Snipcart.com/themes/v3.2.1/default/Snipcart.css"
+            href="<https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css>"
           />
         </Head>
         <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
