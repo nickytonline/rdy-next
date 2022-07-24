@@ -185,7 +185,7 @@ export default function Loguilloche() {
                       data-item-image={imageUrl}
                       data-item-name={`FACETRACE PARTY`}
                       data-item-url="/shop/facetrace"
-                      data-item-price={100}
+                      data-item-price={2500}
                     >
                       Buy Now
                     </button>

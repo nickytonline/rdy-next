@@ -24,14 +24,17 @@ class MyDocument extends Document {
           <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
 
-          <link rel="preconnect" href="<app.snipcart.com>" />
-          <link rel="preconnect" href="<cdn.snipcart.com>" />
-          <link rel="stylesheet" href="<cdn.snipcart.com/themes/v3.2.0/default/snipcart.css>" />
+          <link rel="preconnect" href="https://app.snipcart.com" />
+          <link rel="preconnect" href="https://cdn.snipcart.com" />
+          <link
+            rel="stylesheet"
+            href="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.css"
+          />
         </Head>
         <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
           <Main />
           <NextScript />
-          <script src="cdn.Snipcart.com/themes/v3.2.1/default/Snipcart.js" async />
+          <script src="https://cdn.Snipcart.com/themes/v3.2.1/default/Snipcart.js" async />
           <div
             id="Snipcart"
             data-api-key="ZjAxYWI0NjMtMjhjNS00MGVlLThkZjUtMGU0Y2I2NjFiNTk1NjM3OTEwMjM0Mjc4NzQ1OTY3"
