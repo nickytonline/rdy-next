@@ -119,7 +119,7 @@ export default function Loguilloche() {
                   </div>
                   <div className="w-full">
                     <button
-                      className="Snipcart-add-item w-full rounded-md bg-gray-600 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700"
+                      className="snipcart-add-item w-full rounded-md bg-gray-600 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700"
                       data-item-id={`facetrace-sketch`}
                       data-item-image={imageUrl}
                       data-item-name={`FACETRACE SKETCH`}
@@ -149,7 +149,7 @@ export default function Loguilloche() {
                   </div>
                   <div className="w-full">
                     <button
-                      className="Snipcart-add-item w-full rounded-md bg-gray-600 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700"
+                      className="snipcart-add-item w-full rounded-md bg-gray-600 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700"
                       data-item-id={`facetrace-potrtait`}
                       data-item-image={imageUrl}
                       data-item-name={`FACETRACE PORTRAIT`}
@@ -180,7 +180,7 @@ export default function Loguilloche() {
                   </div>
                   <div className="w-full">
                     <button
-                      className="Snipcart-add-item w-full rounded-md bg-gray-600 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700"
+                      className="snipcart-add-item w-full rounded-md bg-gray-600 px-10 py-2 font-bold text-white transition-colors hover:bg-gray-700"
                       data-item-id={`facetrace-party`}
                       data-item-image={imageUrl}
                       data-item-name={`FACETRACE PARTY`}
