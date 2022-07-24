@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+
 class MyDocument extends Document {
   render() {
     return (
@@ -34,12 +35,6 @@ class MyDocument extends Document {
         <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
           <Main />
           <NextScript />
-          <script src="https://cdn.Snipcart.com/themes/v3.2.1/default/Snipcart.js" async />
-          <div
-            id="Snipcart"
-            data-api-key="ZjAxYWI0NjMtMjhjNS00MGVlLThkZjUtMGU0Y2I2NjFiNTk1NjM3OTEwMjM0Mjc4NzQ1OTY3"
-            hidden
-          ></div>
         </body>
       </Html>
     )
