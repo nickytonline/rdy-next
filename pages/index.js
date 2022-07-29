@@ -28,27 +28,9 @@ export default function Home({ posts }) {
           height="1500"
           objectFit="contain"
         />
-        <Image
-          src="/static/images/shop/map4.jpeg"
-          alt="image"
-          width="700"
-          height="1500"
-          objectFit="contain"
-        />
-        <Image
-          src="/static/images/shop/log13.jpeg"
-          alt="image"
-          width="700"
-          height="1500"
-          objectFit="contain"
-        />
-        <Image
-          src="/static/images/shop/ft-monica-3.jpg"
-          alt="image"
-          width="700"
-          height="1500"
-          objectFit="contain"
-        />
+        <img src="/static/images/shop/map4.jpeg" alt="image" width="700" height="1500" />
+        <img src="/static/images/shop/log13.jpeg" alt="image" width="700" height="1500" />
+        <img src="/static/images/shop/ft-monica-3.jpg" alt="image" width="700" height="1500" />
       </div>
 
       {siteMetadata.newsletter.provider !== '' && (
